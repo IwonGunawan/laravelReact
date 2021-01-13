@@ -9,34 +9,34 @@
 
 ## Laravel
 
-composer create-project --prefer-dist laravel/laravel:
+composer create-project --prefer-dist laravel/laravel project_name
 
 
-- run db :
+- run db <br/>
 php artisan migrate
 
-- run app : 
+- run app <br/>
 php artisan serve
 
-- create model 
+- create model <br/>
 php artisan make:model modelName
 
-- create controller
+- create controller <br/>
 php artisan make:controller controllerName
 
 
 ## REACT
 
-- install laravel ui
+- install laravel ui <br />
 composer require laravel/ui  
 
-- install react
+- install react <br/>
 php artisan ui react
 
-- install react-router
+- install react-router <br/>
 npm install react-router-dom
 
-- install rect-sweetalert
+- install rect-sweetalert <br />
 npm install react-bootstrap-sweetalert 
 
 - npm install && npm run dev 
